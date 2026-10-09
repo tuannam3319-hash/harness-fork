@@ -2,6 +2,14 @@
 
 이 프로젝트는 [Semantic Versioning](https://semver.org/)을 따릅니다.
 
+## [1.0.2] - 2026-10-09
+
+### Changed
+
+- 설치 명령, 배지, plugin/marketplace 매니페스트, 랜딩·개인정보 페이지 링크를 포크 저장소(tuannam3319-hash/harness-fork)로 변경
+- 설치 명령을 `harness@harness-marketplace`로 수정 (marketplace 이름과 일치)
+- marketplace.json 버전을 plugin.json과 동기화
+
 ## [1.0.1] - 2026-03-28
 
 ### Changed

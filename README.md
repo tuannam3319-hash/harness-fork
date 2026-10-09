@@ -3,15 +3,17 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Version-1.0.1-brightgreen.svg" alt="Version">
+  <img src="https://img.shields.io/badge/Version-1.0.2-brightgreen.svg" alt="Version">
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-Apache_2.0-blue.svg" alt="License"></a>
   <img src="https://img.shields.io/badge/Claude_Code-Plugin-purple.svg" alt="Claude Code Plugin">
   <img src="https://img.shields.io/badge/Patterns-6_Architectures-orange.svg" alt="6 Architecture Patterns">
   <img src="https://img.shields.io/badge/Mode-Agent_Teams-green.svg" alt="Agent Teams">
-  <a href="https://github.com/revfactory/harness/stargazers"><img src="https://img.shields.io/github/stars/revfactory/harness?style=social" alt="GitHub Stars"></a>
+  <a href="https://github.com/tuannam3319-hash/harness-fork/stargazers"><img src="https://img.shields.io/github/stars/tuannam3319-hash/harness-fork?style=social" alt="GitHub Stars"></a>
 </p>
 
 # Harness
+
+> Fork of [revfactory/harness](https://github.com/revfactory/harness) by robin (Apache 2.0).
 
 **Agent Team & Skill Architect** — A Claude Code Plugin
 
@@ -52,12 +54,12 @@ Phase 6: Validation & Testing
 
 #### Add the marketplace
 ```shell
-/plugin marketplace add revfactory/harness
+/plugin marketplace add tuannam3319-hash/harness-fork
 ```
 
 #### Install the plugin
 ```shell
-/plugin install harness@harness
+/plugin install harness@harness-marketplace
 ```
 
 ### Direct Installation as Global Skill

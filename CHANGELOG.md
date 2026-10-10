@@ -2,6 +2,22 @@
 
 이 프로젝트는 [Semantic Versioning](https://semver.org/)을 따릅니다.
 
+## [Unreleased]
+
+### Fixed
+
+- 생성되는 스킬 파일명을 `skill.md` → `SKILL.md`로 수정 (Claude Code는 대문자 파일명만 인식, Linux에서 소문자 스킬이 로드되지 않던 문제)
+- 상대/절대 경로, eval 쿼리 개수, 점진적 QA vs 최종 1회 검증 등 레퍼런스 간 상충 내용 정리
+
+### Added
+
+- 에이전트 팀 도구가 없는 환경에서의 서브 에이전트 폴백 지침
+- Phase 2-4: 파일 생성 전 사용자에게 설계안 확인
+
+### Changed
+
+- 모든 에이전트 opus 강제 → 기본 opus, 가벼운 역할은 sonnet/haiku 허용
+
 ## [1.0.1] - 2026-03-28
 
 ### Changed

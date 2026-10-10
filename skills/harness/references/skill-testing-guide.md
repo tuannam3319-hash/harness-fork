@@ -234,7 +234,7 @@ assertion 기반 채점을 수행하고, 산출물에서 검증 가능한 주장
 
 ### 7-1. 트리거 Eval 쿼리 작성
 
-20개의 eval 쿼리를 작성한다 — should-trigger 10개 + should-NOT-trigger 10개.
+16~20개의 eval 쿼리를 작성한다 — should-trigger 8~10개 + should-NOT-trigger 8~10개.
 
 **쿼리 품질 기준:**
 - 실제 사용자가 입력할 법한 구체적이고 자연스러운 문장
